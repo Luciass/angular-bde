@@ -65,21 +65,4 @@
     </tbody>
   </table>
 </div>
-<script type="text/javascript">
-  var divAddMember = document.getElementById('divAddMember');
-  var btnAddMember = document.getElementById('addMember');
-
-  divAddMember.hidden = true;
-
-  btnAddMember.addEventListener('click', affDivMember, false);
-
-  function affDivMember() {
-    if(divAddMember.hidden === true) {
-      divAddMember.hidden = false;
-      btnAddMember.innerText = "Cancel";
-    } else {
-      divAddMember.hidden = true;
-      btnAddMember.innerText = "Add member";
-    }
-  }
-</script>
+<script src="./app/member/script.js"></script>
